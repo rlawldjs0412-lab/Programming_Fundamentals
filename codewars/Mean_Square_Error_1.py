@@ -33,3 +33,4 @@ def solution(array_a, array_b):
     a = np.array(array_a)
     b = np.array(array_b)
     
+    return np.mean((a - b) ** 2)
